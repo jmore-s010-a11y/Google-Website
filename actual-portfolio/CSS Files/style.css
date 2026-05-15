@@ -1,0 +1,95 @@
+    body
+    {
+        color: cyan;
+        background-image: url(../ActualPortfolioImages/PhoneBackgroundforWebsite.png);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #header
+    {
+        background-color: cyan;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    h1
+    {
+        color:black;
+    }
+    h3
+    {
+        color: black;
+    }
+    ul#dirctory
+    {
+        
+    }
+    .directory
+    {
+        border: 5px solid cyan;
+        padding: 25px;
+    }
+    #container
+    {
+        border: 5px solid cyan;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    p
+    {
+        background-image: url(../ActualPortfolioImages/PhTextBackground.png);
+        border: 5px solid cyan;
+        padding: .5rem;
+    }
+    SAM
+    {
+        color: white;
+    }
+    #SecretMessage
+    {
+        color: white;
+        margin-top: 100%;
+    }
+    SM
+    {
+        color: white;
+    }
+    ul
+    {
+        border: 5px solid cyan;
+        justify-content: space-evenly;
+        list-style-type: none;
+        display: flex;
+    }
+    a
+    {
+        color: cyan;
+    }
+    footer
+    {
+        border: 5px solid cyan;
+        justify-content: space-between;
+        padding: 25px;
+        margin: 10px;
+    }
+        /*Tablet*/
+    @media  screen and (min-width:768px)
+            {
+                body{background-image: url(../ActualPortfolioImages/TabletBackgroundFinal\ copy.jpg);
+                background-size: cover;
+            background-attachment: fixed;}
+            p
+            {
+                background-image: url(../ActualPortfolioImages/TaTextBackground.png);
+            }
+        /*PC*/
+            @media screen and (min-width:1024px)
+        {
+            body{background-image: url(../ActualPortfolioImages/NEWBackgroundforWebsite.png);
+            background-size: cover;
+            background-attachment: fixed;}
+            p
+            {
+            background-image: url(../ActualPortfolioImages/PCTextBackground.png);
+            }
+        }
+            }
